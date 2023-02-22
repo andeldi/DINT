@@ -1,0 +1,120 @@
+$prim: #ef9a9a;
+$priml: #ffcccb;
+$primd: #ba6b6c;
+$sec: #775447;
+$secl: #a78172;
+$secd: #4a2b20;
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Roboto&family=Secular+One&display=swap');
+//for menu links
+$menu: 'Secular One', sans-serif;
+//for text content inside elements
+$content: 'Roboto', sans-serif;
+$title: 'Arvo',serif;
+
+
+body {
+    background-color: $priml;
+    h1{
+        font-family:$title;
+        color: $secd;
+        font-weight: bold;
+        text-align:center;
+        .title1{
+            margin-bottom: 20%;
+        }
+    }
+    .curriculum{
+        background-color: white;
+    }
+
+}
+
+section{
+    border-radius:5px;
+    padding: 3%;
+   }
+h3{
+    font-family:$title;
+    color: $secd;
+    font-weight: bold;
+}
+
+//for titles
+nav {
+    background-color: $prim;
+   
+    .material-icons {
+        color: $secd;
+
+        &:hover {
+            background-color: $primd;
+            border-radius: 5px;
+        }
+    }
+    
+li {
+    &:hover {
+        background-color: $primd;
+        border-radius: 5px;
+    }
+  
+
+    a {
+        color: $secd;
+        font-family: $menu;
+       
+      
+    }
+}
+
+}
+
+.nav-link.active{
+    background-color: $primd;
+    border-radius:5px;
+}
+
+.accordion {
+    --bs-accordion-btn-active-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+
+    .accordion-button {
+        color: $secd;
+        font-weight: bold;
+        font-family: $content;
+        &:not(.collapsed) {
+            color: $secd;
+            background-color: $secl;
+            border-color: $secl;
+        }
+
+        .material-icons {
+            color: $secd;
+        }
+    }
+}
+
+.list-group-item{
+    font-family: $content;
+    &:hover{
+        background-color: $priml;
+    }
+    a{
+        color:$primd;
+    }
+}
+
+footer {
+    bottom: 0;
+    position: fixed;
+    background-color: $prim;
+
+    div {
+        color: $secd;
+        font-family: $menu;
+    }
+
+    width: 100%;
+}

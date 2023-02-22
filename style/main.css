@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Arvo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Special+Elite&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway&family=Secular+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway&family=Roboto&family=Secular+One&display=swap");
+body {
+  background-color: #ffcccb;
+}
+body h1 {
+  font-family: "Arvo", serif;
+  color: #4a2b20;
+  font-weight: bold;
+  text-align: center;
+}
+body h1 .title1 {
+  margin-bottom: 20%;
+}
+body .curriculum {
+  background-color: white;
+}
+
+section {
+  border-radius: 5px;
+  padding: 3%;
+}
+
+h3 {
+  font-family: "Arvo", serif;
+  color: #4a2b20;
+  font-weight: bold;
+}
+
+nav {
+  background-color: #ef9a9a;
+}
+nav .material-icons {
+  color: #4a2b20;
+}
+nav .material-icons:hover {
+  background-color: #ba6b6c;
+  border-radius: 5px;
+}
+nav li:hover {
+  background-color: #ba6b6c;
+  border-radius: 5px;
+}
+nav li a {
+  color: #4a2b20;
+  font-family: "Secular One", sans-serif;
+}
+
+.nav-link.active {
+  background-color: #ba6b6c;
+  border-radius: 5px;
+}
+
+.accordion {
+  --bs-accordion-btn-active-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+.accordion .accordion-button {
+  color: #4a2b20;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+}
+.accordion .accordion-button:not(.collapsed) {
+  color: #4a2b20;
+  background-color: #a78172;
+  border-color: #a78172;
+}
+.accordion .accordion-button .material-icons {
+  color: #4a2b20;
+}
+
+.list-group-item {
+  font-family: "Roboto", sans-serif;
+}
+.list-group-item:hover {
+  background-color: #ffcccb;
+}
+.list-group-item a {
+  color: #ba6b6c;
+}
+
+footer {
+  bottom: 0;
+  position: fixed;
+  background-color: #ef9a9a;
+  width: 100%;
+}
+footer div {
+  color: #4a2b20;
+  font-family: "Secular One", sans-serif;
+}
+
+/*# sourceMappingURL=main.css.map */
